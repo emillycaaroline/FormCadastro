@@ -1,0 +1,34 @@
+body {
+    display: block;
+    text-align: center;
+    font-size: larger;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    padding-right: 1%;
+    
+}
+
+h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    background-color: rgb(255, 119, 107);
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+input{
+    padding: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
