@@ -8,39 +8,41 @@
     <script src='formCadastro.js'></script>
 </head>
 <body>
+
     <div class="container col-4">
     	<table id="formCadastro">
         <h1> Cadastro </h1>
 
         <form name="formCadastro">
-           
-            <label for="nome">Nome</label>
+
+
+            <label for="inputZip" class="form-label">Nome</label>
             <br>
-            <input type="text" id="name" placeholder="nome completo" name="name" required="" />
+            <input type="text" class="form-control" id="nome" placeholder="nome completo">
             <br>
-            <label for="telefone">Telefone</label>
+            <label for="inputZip" class="form-label">Telefone</label> 
             <br>
-            <input type="tel" id="telefone" placeholder="ex:(DDD) 0000-0000" maxlength="11"  name="tel" required=""  />
+            <input type="text" class="form-control" id="telefone" placeholder="ex:(DDD) 0000-0000">
             <br>
-            <label for="data">Data de Nascimento</labela>
+            <label for="data" class="form-label">Data de Nascimento</label> 
             <br>
-            <input type="date" id="data" placeholder="00/00/0000" name="data" required=""  />
+            <input type="date" class="form-control" id="data" placeholder="00/00/0000">
             <br>
-            <label for="cpf">CPF</label>
+            <label for="cpf" class="form-label">CPF</label> 
             <br>
-            <input type="text" id="ao_cpf" placeholder="ex:000.000.000-00" maxlength="14" name="cpf" required=""   />
+            <input type="text" class="form-control" id="ao_cpf" placeholder="ex:000.000.000-00"  maxlength="14">
             <br>
-            <label for="cep">CEP</label>
+            <label for="cep" class="form-label">CEP</label> 
             <br>
-            <input for="number" id="ao_cep" placeholder="00000-000" maxlength="10" style="width: 100px;" required=""  />
+            <input type="number" class="form-control" id="ao_cep" placeholder=""  >
             <br>
-            <label for="text">Endereço</label>
+            <label for="text" class="form-label">Endereço</label> 
             <br>
-            <input type="endereço" id="endereco" placeholder="ex:rua: joão Ruiz..." name="endereco" required=""  />
+            <input type="endereço" class="form-control" id="endereco" placeholder="ex:rua: joão Ruiz..." >
             <br>
-            <label for="number">Número</label>
+            <label for="number" class="form-label">Número</label> 
             <br>
-            <input type="number" id="number" placeholder="ex:231" name="number" style="width: 50px;" required=""  />
+            <input type="number" class="form-control" id="number" placeholder="ex:231"  required=""  >
             <br>
             <label for="complemento">Complemento</label>
             <br>
@@ -74,4 +76,4 @@
         </form>
 </body>
 </table>
-</html
+</html>
